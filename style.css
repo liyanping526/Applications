@@ -1,0 +1,74 @@
+
+
+header{
+	display: grid;
+   	grid-template-columns: repeat(12, 1fr );
+	background-color: #B44E2B;
+	color:white;
+	height:100px;
+	font-family: monospace;
+	text-align:center;
+	
+}
+#logo{
+	font-size:50px;
+	padding-top:20px;
+ 	grid-column:1/4;
+
+}
+#email{
+	font-size:20px;
+	text-align:right;
+	padding-top:40px;
+	grid-column:5/12;
+}
+#login{
+	font-size:20px;
+	text-align:left;
+	padding-top:40px;
+	margin-left:10px;
+	grid-column:12/13;
+}
+section{
+	margin-top:20px;
+	padding:10px;
+	height:700px;
+	display: grid;
+    grid-template-columns: repeat(12,1fr);
+
+}
+#post{
+	grid-column:1/8;
+	background-color: #FBF6DF;
+	text-align:center;
+	font-size:30px;
+	
+}
+#signUp{
+	grid-column:9/13;
+	padding:10px;
+	background-color: #FBF6DF;
+	
+}
+.info{
+	margin-top:20px;
+
+	
+}
+.info, .input{
+	font-size: 15px;
+	height:30px;
+}
+#sighButton{
+	margin-top:40px;
+
+}
+footer{
+	background-color: #B44E2B;
+	color:white;
+	height:50px;
+	font-family: monospace;
+	text-align:center;
+	padding-top:20px;
+	margin-top:20px;
+}
